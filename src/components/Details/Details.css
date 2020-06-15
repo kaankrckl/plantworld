@@ -1,0 +1,52 @@
+.container{
+    margin-top: 90px;
+    height: 100%;
+}
+.maino{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    height: 100%;
+}
+
+.imgo img{
+    width: 100%;
+    height: 100%;
+    
+}
+.imgo{
+    width: 300px;
+    height: 300px;
+    padding-right: 100px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    width: 300px;
+    
+}
+.price{
+    margin-top: 0px;
+}
+
+.btns .btn-detail{
+    border: 1px  solid pink;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: pink;
+    outline: none;
+}
+
+.btn-detail:hover,
+.btn-detail:active{
+    border: 1px  solid pink;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+}

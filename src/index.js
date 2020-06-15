@@ -2,11 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import {BrowserRouter as Router} from "react-router-dom";
+import { PlantProvider } from './context';
 import * as serviceWorker from './serviceWorker';
+import 'font-awesome/css/font-awesome.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <PlantProvider>
+    <Router>
+       <App />
+      </Router>
+    </PlantProvider>
+
   </React.StrictMode>,
   document.getElementById('root')
 );

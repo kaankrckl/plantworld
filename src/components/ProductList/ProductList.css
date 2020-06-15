@@ -1,0 +1,14 @@
+.main{
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    
+}
+.product{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -10px;
+    align-items: center;
+}

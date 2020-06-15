@@ -1,0 +1,17 @@
+.btn-clear{
+    border: 1px  solid pink;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: pink;
+    outline: none;
+}
+.btn-clear:hover,
+.btn-clear:active{
+    border: 1px  solid pink;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+.contain{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal{
+    background: white;
+    margin-top: 10px;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+}
+
+.modal img{
+    height: 200px;
+    width: 200px;
+}
+.btn-mdl{
+    border: 1px  solid pink;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: pink;
+    outline: none;
+}
+
+.btn-mdl:hover,
+.btn-mdl:active{
+    border: 1px  solid pink;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+}
